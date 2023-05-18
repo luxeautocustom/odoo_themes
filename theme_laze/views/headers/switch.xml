@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Laze Header Options -->
+    <template id="laze_header_switches" inherit_id="website.snippet_options">
+        <xpath expr="//div/we-select[@data-variable='header-template']" position="inside">
+            <we-button title="Laze: Header 1"
+                data-name="laze_header_opt1"
+                data-customize-website-views="theme_laze.laze_header_1"
+                data-customize-website-variable="'laze_header1'"
+                data-img="/theme_laze/static/src/img/header_icon/header-option-1.svg"/>
+            <we-button title="Laze: Header 2"
+                data-name="laze_header_opt2"
+                data-customize-website-views="theme_laze.laze_header_2"
+                data-customize-website-variable="'laze_header2'"
+                data-img="/theme_laze/static/src/img/header_icon/header-option-2.svg"/>
+            <we-button title="Laze: Header 3"
+                data-name="laze_header_opt3"
+                data-customize-website-views="theme_laze.laze_header_3"
+                data-customize-website-variable="'laze_header3'"
+                data-img="/theme_laze/static/src/img/header_icon/header-option-3.svg"/>
+        </xpath>
+        <xpath expr="//div/we-row/we-colorpicker" position="replace">
+            <we-colorpicker data-customize-website-color="" 
+                            data-color="menu"
+                            data-customize-website-layer2-color="" 
+                            data-layer-color="menu-custom" 
+                            data-layer-gradient="menu-gradient"
+                            data-no-bundle-reload="true"
+                            data-null-value="'NULL'"
+                            data-with-combinations="customizeWebsiteColor"
+                            data-with-gradients="true"/>
+            <we-colorpicker data-dependencies="header_boxed_opt"
+                            data-customize-website-color="" 
+                            data-color="header-boxed"
+                            data-customize-website-layer2-color="" 
+                            data-layer-color="header-boxed-custom" 
+                            data-layer-gradient="header-boxed-gradient"
+                            data-no-bundle-reload="true"
+                            data-null-value="'NULL'"
+                            data-with-combinations="customizeWebsiteColor"
+                            data-with-gradients="true"/>
+            <we-colorpicker data-dependencies="laze_header_opt1, laze_header_opt2, laze_header_opt3"
+                            data-customize-website-color="" 
+                            data-color="header-boxed"
+                            data-customize-website-layer2-color="" 
+                            data-layer-color="header-boxed-custom" 
+                            data-layer-gradient="header-boxed-gradient"
+                            data-no-bundle-reload="true"
+                            data-null-value="'NULL'"
+                            data-with-combinations="customizeWebsiteColor"
+                            data-with-gradients="true"/>
+        
+        </xpath>
+    </template>
+</odoo>

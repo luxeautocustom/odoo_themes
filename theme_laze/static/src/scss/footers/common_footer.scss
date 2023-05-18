@@ -1,0 +1,44 @@
+$lz-footer-yiq-color: color-yiq(o-color('footer-custom') or o-color('footer') or rgba(0, 0, 0, 0));
+
+.o_footer {
+	$-footer-color: o-color('footer-custom') or o-color('footer');
+	.o_footer_copyright {
+        border-top: 1px solid rgba($lz-footer-yiq-color, 0.1);
+        font-size: 14px;
+        @include media-breakpoint-down(md) {
+            .col-sm {
+                &.text-sm-left {
+                    text-align: center !important;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+	}
+    .o_pricelist_dropdown {
+        .dropdown-toggle {
+            background: none !important; 
+            font-size: 14px;
+            border-radius: 0;
+        }
+    }
+    .js_language_selector {
+        .dropdown-toggle {
+            background: none !important; 
+            font-size: 14px;
+            border-radius: 0;
+            color: inherit !important;
+        }   
+    }
+    .dropdown,
+	.dropup {
+        // Dropdown arrow
+        .dropdown-toggle {
+            &:after {
+                content: "\f107";
+                font-family: FontAwesome;
+                border: 0;
+                vertical-align: top;
+            }
+        }
+	}
+}

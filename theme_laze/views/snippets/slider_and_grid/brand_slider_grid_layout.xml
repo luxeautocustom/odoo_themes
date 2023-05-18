@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="laze_brand_logo_box" name="Brand Logo Box">
+		<t t-if="brands">
+			<t t-foreach="brands" t-as="brand">
+	    		<div t-attf-class="#{_as_brand_class}">
+	    			<div class="as-brand-logo-box">
+	    				<t t-if="recordLink">
+	    					<a t-attf-href="/shop?brand={{brand.id}}" class="stretched-link" />
+	    				</t>
+	    				<span class="brand_img_span">
+	                        <img t-att-alt="brand.name" t-att-src="website.image_url(brand,'logo','300x300')" t-att-title="brand.name"/>
+	                    </span>
+	                    <t t-if="recordName">
+	                        <div class="as-brand-name">
+								<span><t t-esc="brand.name"/></span>
+							</div>
+						</t>
+	    			</div>
+	    		</div>
+	    	</t>
+    	</t>
+    	<t t-else="">
+            <div class="as-no-record">
+            	<span>No Brand available </span>
+            </div>
+        </t>
+	</template>
+
+	<template id="laze_brand_slider_layout" name="Laze Brand Layout">
+		<section t-attf-class="as-brand-snippet as-swiper-section as-swiper-pagination-{{sliderType}} as-brand-{{styleUI}}">
+            <div class="container">
+                <div class="swiper as-Swiper as-our-brand">
+                	<div class="swiper-wrapper">
+                		<t t-call="theme_laze.laze_brand_logo_box">
+                            <t t-set="_as_brand_class" t-value="'swiper-slide'"/>
+                        </t>
+                    </div>
+                	<t t-call="theme_laze.laze_swiper_arrow_elements" />
+                </div>
+            </div>
+        </section>
+	</template>
+
+	<template id="laze_brand_column_layout" name="Laze Brand Column Layout">
+		<section t-attf-class="as-brand-snippet as-brand-grid-{{dataCount}} as-brand-{{styleUI}}">
+            <div class="container">
+                <div class="row">
+                	<t t-call="theme_laze.laze_brand_logo_box">
+                        <t t-set="_as_brand_class" t-value="'col-6 col-sm-4 col-md-4 col-lg-3 my-3'"/>
+                    </t>
+                </div>
+            </div>
+        </section>
+	</template>
+
+</odoo>

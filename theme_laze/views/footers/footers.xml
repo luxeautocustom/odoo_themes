@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="laze_footer_1" inherit_id="website.layout" name="Default" active="False">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <section class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="fot-msg-in h5">
+                                    <p>Need help? Call our award winning support team 24/7 at +01 800 100 9906</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer-middle py-3 py-md-5 py-lg-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-logo pb-4">
+                                    <img height="35" src="/theme_laze/static/src/img/snippets/footer-light-logo.svg" />
+                                </div>
+                                <p>One of the most powerful, amazing and flexible themes on Odoo store</p>
+                                <div class="s_share" data-snippet="s_share" data-name="Social Media">
+                                    <a href="#" class="s_share_facebook" target="_blank">
+                                        <i class="fa fa-facebook" />
+                                    </a>
+                                    <a href="#" class="s_share_twitter" target="_blank">
+                                        <i class="fa fa-twitter" />
+                                    </a>
+                                    <a href="#" class="s_share_linkedin" target="_blank">
+                                        <i class="fa fa-linkedin" />
+                                    </a>
+                                    <a href="#" class="s_share_instagram" target="_blank">
+                                        <i class="fa fa-instagram" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-lg-3 py-3">
+                                        <div class="footer-widget">
+                                            <div class="footer-widget-title">
+                                                <h6>Navigate</h6>
+                                            </div>
+                                            <div class="footer-widget-list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Blog</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Contact Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Shipping &amp; Returns</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Sitemap</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 py-3">
+                                        <div class="footer-widget">
+                                            <div class="footer-widget-title">
+                                                <h6>Categories</h6>
+                                            </div>
+                                            <div class="footer-widget-list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">New In</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Women</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Men</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Shoes</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Bags &amp; Accessories</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Top Brands</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Special Offers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Lookbook</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 py-3">
+                                        <div class="footer-widget">
+                                            <div class="footer-widget-title">
+                                                <h6>Useful Links</h6>
+                                            </div>
+                                            <div class="footer-widget-list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Our Services</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">How to shop</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">FAQ's</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Contact us</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 py-3">
+                                        <div class="footer-widget">
+                                            <div class="footer-widget-title">
+                                                <h6>Useful Links</h6>
+                                            </div>
+                                            <div class="footer-widget-list">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Our Services</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">How to shop</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">FAQ's</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Contact us</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer-middle-sub pb-3 pb-lg-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="fot-note text-center text-lg-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="nav ssl-image justify-content-center justify-content-lg-end">
+                                    <li class="ml-2">
+                                        <img src="/theme_laze/static/src/img/security-1.png" />
+                                    </li>
+                                    <li class="ml-2">
+                                        <img src="/theme_laze/static/src/img/security-2.png" />
+                                    </li>
+                                    <li class="ml-2">
+                                        <img src="/theme_laze/static/src/img/security-3.png" />
+                                    </li>
+                                    <li class="ml-2">
+                                        <img src="/theme_laze/static/src/img/security-4.png" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+    <template id="laze_footer_2" inherit_id="website.layout" name="Default" active="False">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <section class="footer-middle py-4 py-md-5 py-lg-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-title">
+                                    <h5>EXPLORE</h5>
+                                </div>
+                                <ul class="list-unstyled m-0 footer-link">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Shipping &amp; Returns</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-title">
+                                    <h5>CATEGORIES</h5>
+                                </div>
+                                <ul class="list-unstyled m-0 footer-link">
+                                    <li><a href="#">Women</a></li>
+                                    <li><a href="#">Men</a></li>
+                                    <li><a href="#">Shoes</a></li>
+                                    <li><a href="#">Bags &amp; Accessories</a></li>
+                                    <li><a href="#">Top Brands</a></li>
+                                    <li><a href="#">Special Offers</a></li>
+                                    <li><a href="#">Lookbook</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-title">
+                                    <h5>USEFUL LINKS</h5>
+                                </div>
+                                <ul class="list-unstyled m-0 footer-link">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li><a href="#">How to shop</a></li>
+                                    <li><a href="#">FAQ's</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-title">
+                                    <h5>JOIN THE NEWSLETTER</h5>
+                                </div>
+                                <div class="fot-subscibe">
+                                    <p>Sign up to receive emails about product launches, exclusive offers and enjoy 10% off your first order.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+    <template id="laze_footer_3" inherit_id="website.layout" name="Default" active="False">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <section class="footer-middle py-4 py-md-5 py-lg-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-title">
+                                    <h5>Support</h5>
+                                </div>
+                                <ul class="list-unstyled m-0 footer-link">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">STOCKIST</a></li>
+                                    <li><a href="#">PRESS</a></li>
+                                    <li><a href="#">AFFILIATES</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 py-3">
+                                <div class="footer-title">
+                                    <h5>Keep In Touch</h5>
+                                </div>
+                                <div class="footer-subscribe">
+                                    <p class="footer-subscribe-hookup">We promise we won't write to you often</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 py-3">
+                                <div class="footer-title">
+                                    <h5>Contact</h5>
+                                </div>
+                                <div class="fot-company">
+                                    <p><a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+                                    <p>301 The Laze Theme<br/>VENICE, CA 90265</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="as_copyright_extend" inherit_id="web.frontend_layout" name="As Copyright Extend" priority="99">
+        <xpath expr="//div[hasclass('o_footer_copyright')]/div/div/div[last()]" position="replace"/>
+        <xpath expr="//div[hasclass('o_footer_copyright')]/div/div" position="inside">
+            <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center">
+                <!-- pricelist list -->
+                <t t-call="website_sale.pricelist_list">
+                    <t t-set="_classes" t-valuef="mr-3"/>
+                </t>
+                <div class="footer-payment-icon">
+                    <img src="/theme_laze/static/src/img/snippets/payment.png" />
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

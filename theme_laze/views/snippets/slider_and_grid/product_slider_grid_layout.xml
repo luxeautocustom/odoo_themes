@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="laze_product_box" name="Product Box">
+        <t t-if="products">
+            <t t-foreach="products" t-as="product">
+                <div t-attf-class="#{_as_product_class}">
+                    <div class="as-product-box">
+                        <form action="/shop/cart/update" method="post">
+                            <t t-set="combination" t-value="product._get_first_possible_combination()"/>
+                            <t t-set="combination_info" t-value="product._get_combination_info(combination, add_qty=add_qty or 1, pricelist=pricelist)"/>
+                            <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+                            <input type="hidden" class="product_id" name="product_id" t-att-value="product_variant.id"/>
+                            <input type="hidden" class="product_template_id" name="product_template_id" t-att-value="product.id"/>
+                            <div class="as-product-thumb">
+                                <t t-if="prod_label == True">
+                                    <!-- Product label option -->
+                                    <t t-call="theme_laze.as_product_label_option"/>
+                                </t>
+                                <div class="as-product-img">
+                                    <a t-attf-href="/shop/product/#{slug(product)}">
+                                        <img t-att-alt="product.name" t-att-src="website.image_url(product,'image_512','300x300')" t-att-title="product.name"/>
+                                    </a>
+                                </div>
+                                <t t-if="wish_list == True">
+                                    <!-- Product wishlist option -->
+                                    <t t-call="theme_laze.as_product_wishlist_option"/>
+                                </t>
+                                <div class="as-btn-action">
+                                    <t t-if="prod_compare == True">
+                                        <!-- Product compare option -->
+                                        <t t-call="theme_laze.as_product_compare_option"/>
+                                    </t>
+                                    <t t-if="quickView == True">
+                                        <!-- Product quickview option -->
+                                        <t t-call="theme_laze.as_product_quickview_option"/>
+                                    </t>
+                                </div>
+                            </div>
+                            <div class="as-product-info">
+                                <t t-if="prod_rating == True">
+                                    <!-- Product rating option -->
+                                    <t t-call="theme_laze.as_product_rating_option"/>
+                                </t>
+                                <div class="as-product-title">
+                                    <a t-attf-href="/shop/product/#{slug(product)}" t-att-title="product.name">
+                                        <t t-esc="product.name" />
+                                    </a>
+                                </div>
+                                <div class="as-product-price">
+                                    <!-- Product price -->
+                                    <t t-call="theme_laze.as_product_price"/>
+                                </div>
+                                <div class="as-product-action">
+                                    <t t-if="prod_cart == True">
+                                        <!-- Product Add to cart option -->
+                                        <t t-call="theme_laze.as_product_cart_option"/>
+                                    </t>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </t>
+        </t>
+        <t t-else="">
+            <span> No Product available </span>
+        </t>
+    </template>
+
+    <template id="laze_swiper_arrow_elements" name="Swiper buttons Elements">
+        <div class="as-swiper-np-buttons">
+            <div class="as-swiper-button-np as-swiper-button-next"><span/></div>
+            <div class="as-swiper-button-np as-swiper-button-prev"><span/></div>
+        </div>
+    </template>
+    
+    <template id="laze_product_slider_layout" name="Laze Product Layout">
+        <section t-attf-class="as-product-snippet as-swiper-section as-product-{{styleUI}} as-swiper-pagination-{{sliderType}} js_sale">
+            <div class="container">
+                <div class="swiper as-Swiper as-our-product">
+                    <div class="swiper-wrapper">
+                        <t t-call="theme_laze.laze_product_box">
+                            <t t-set="_as_product_class" t-value="'swiper-slide'"/>
+                        </t>
+                    </div>
+                    <t t-call="theme_laze.laze_swiper_arrow_elements" />
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="laze_product_grid_layout" name="Laze Product Grid Layout">
+        <section t-attf-class="as-product-snippet as-product-grid-{{dataCount}} as-product-{{styleUI}} js_sale">
+            <div class="container">
+                <div class="row">
+                    <t t-call="theme_laze.laze_product_box">
+                        <t t-set="_as_product_class" t-value="'col-sm-6 col-lg-3 my-3'"/>
+                    </t>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,79 @@
+@if o-website-value('footer-template')=='laze_footer1' {
+	.o_footer {
+		color: $lz-footer-yiq-color;
+		.h1,
+		.h2,
+		.h3,
+		.h4,
+		.h5,
+		.h6,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: $lz-footer-yiq-color;
+		}
+		.fot-msg-in {
+			text-align: center;
+		    margin: 0;
+		    font-size: 1.2rem;
+		    padding: 35px 0;
+		    border-bottom: 1px solid rgba($lz-footer-yiq-color, 0.1);
+		    p {
+		    	margin: 0;
+		    }
+		}
+		.footer-widget-title {
+		    font-weight: 600;
+		    margin: 0 0 25px;
+		    color: $lz-footer-yiq-color;
+		    h6 {
+		    	font-size: 1.05rem;
+		    	margin: 0;
+		    }
+		}
+		.footer-widget {
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				li {
+					+ li {
+						margin-top: 8px;
+					}
+				}
+			}
+			li {
+				a {
+					color: rgba($lz-footer-yiq-color, 0.7);
+					&:hover {
+						color: $lz-footer-yiq-color;
+					}
+				}
+			}
+		}	
+		.fot-note {
+			color: rgba($lz-footer-yiq-color, 0.7);
+			margin: 0;
+		}
+
+		.s_share {
+			a {
+				width: 30px;
+				height: 30px;
+				background: currentColor;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 0;
+				.fa {
+					&:before {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}

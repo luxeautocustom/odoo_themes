@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="theme_laze.builder_block">
+        <div class="snippets_collection" id="builder">
+            <div class="edit-snippet-builder-box">
+                <div class="row">
+                    <div class="col-md-12 e-sb-tab-col">
+                        <ul class="e-sb-tab">
+                            <li>
+                                <label data-tag="e_slider" class="e-sb-active">Slider</label>
+                            </li>
+                            <li>
+                                <label data-tag="e_banner">Banner</label>
+                            </li>
+                            <li>
+                                <label data-tag="e_CTA">Call to Action</label>
+                            </li>
+                            <li>
+                                <label data-tag="e_features">Features</label>
+                            </li>
+                            <li>
+                                <label data-tag="e_shop_promo">Shop Banner</label>
+                            </li>
+                            <li>
+                                <label data-tag="e_heading">Heading</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="e-sb-tab-content">
+                            <!-- Slidder -->
+                            <div id="e_slider" class="e-sb-tab--content">
+                                <div class="row">
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/slider-1.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="s_carousel_wrapper oe_snippet_body" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                                        <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="laze_home_slider_01">
+                                                            <ol class="carousel-indicators">
+                                                                <li data-slide-to="0" class="active" data-target="#laze_home_slider_01"></li>
+                                                                <li data-slide-to="1" data-target="#laze_home_slider_01"></li>
+                                                            </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/theme_laze/static/src/img/snippets/1920x900.jpg');" data-name="Slide">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content">
+                                                                            <div class="carousel-content col-lg-5">
+                                                                                <h2 class="display-4 font-weight-bold">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-3">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/theme_laze/static/src/img/snippets/1920x900.jpg');" data-name="Slide">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content">
+                                                                            <div class="carousel-content col-lg-5">
+                                                                                <h2 class="display-4 font-weight-bold">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-3">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <a class="carousel-control-prev o_not_editable" contenteditable="false" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#laze_home_slider_01">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Previous</span>
+                                                            </a>
+                                                            <a class="carousel-control-next o_not_editable" contenteditable="false" data-slide="next" role="img" aria-label="Next" title="Next" href="#laze_home_slider_01">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Next</span>
+                                                            </a>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Slider 1</h6>
+                                                <label class="e-sb-label" for="e_slider_01"><input id="e_slider_01" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/slider-2.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="s_carousel_wrapper oe_snippet_body" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                                        <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="laze_home_slider_02">
+                                                            <ol class="carousel-indicators">
+                                                                <li data-slide-to="0" class="active" data-target="#laze_home_slider_02"></li>
+                                                                <li data-slide-to="1" data-target="#laze_home_slider_02"></li>
+                                                            </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/theme_laze/static/src/img/snippets/1920x900.jpg');" data-name="Slide">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content justify-content-center">
+                                                                            <div class="carousel-content col-lg-5 text-center">
+                                                                                <h2 class="display-4 font-weight-bold">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-3">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/theme_laze/static/src/img/snippets/1920x900.jpg');" data-name="Slide">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content justify-content-center">
+                                                                            <div class="carousel-content col-lg-5 text-center">
+                                                                                <h2 class="display-4 font-weight-bold">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-3">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <a class="carousel-control-prev o_not_editable" contenteditable="false" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#laze_home_slider_02">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Previous</span>
+                                                            </a>
+                                                            <a class="carousel-control-next o_not_editable" contenteditable="false" data-slide="next" role="img" aria-label="Next" title="Next" href="#laze_home_slider_02">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Next</span>
+                                                            </a>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Slider 2</h6>
+                                                <label class="e-sb-label" for="e_slider_02"><input id="e_slider_02" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/slider-3.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="s_carousel_wrapper oe_snippet_body" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                                        <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="laze_home_slider_03">
+                                                            <ol class="carousel-indicators">
+                                                                <li data-slide-to="0" class="active" data-target="#laze_home_slider_03"></li>
+                                                                <li data-slide-to="1" data-target="#laze_home_slider_03"></li>
+                                                            </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active oe_img_bg o_bg_img_center pt152" data-name="Slide" style="background-color: #eee;">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content justify-content-center">
+                                                                            <div class="carousel-content col-lg-6 text-center">
+                                                                                <h2 class="display-4 font-weight-bold mb-3">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-2">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <img src="/theme_laze/static/src/img/snippets/1000x800.jpg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item oe_img_bg o_bg_img_center pt152" data-name="Slide" style="background-color: #eee;">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content justify-content-center">
+                                                                            <div class="carousel-content col-lg-6 text-center">
+                                                                                <h2 class="display-4 font-weight-bold mb-3">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-2">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <img src="/theme_laze/static/src/img/snippets/1000x800.jpg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <a class="carousel-control-prev o_not_editable" contenteditable="false" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#laze_home_slider_03">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Previous</span>
+                                                            </a>
+                                                            <a class="carousel-control-next o_not_editable" contenteditable="false" data-slide="next" role="img" aria-label="Next" title="Next" href="#laze_home_slider_03">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Next</span>
+                                                            </a>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Slider 3</h6>
+                                                <label class="e-sb-label" for="e_slider_03"><input id="e_slider_03" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/slider-4.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="s_carousel_wrapper oe_snippet_body" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                                        <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="laze_home_slider_04">
+                                                            <ol class="carousel-indicators">
+                                                                <li data-slide-to="0" class="active" data-target="#laze_home_slider_04"></li>
+                                                                <li data-slide-to="1" data-target="#laze_home_slider_04"></li>
+                                                            </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active oe_img_bg o_bg_img_center pt40 pb40" data-name="Slide" style="background-color: #eee;">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content align-items-center">
+                                                                            <div class="carousel-content col-lg-6">
+                                                                                <h2 class="display-4 font-weight-bold mb-3">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-2">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6">
+                                                                                <img src="/theme_laze/static/src/img/snippets/1000x800.jpg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item oe_img_bg o_bg_img_center pt40 pb40" data-name="Slide" style="background-color: #eee;">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content align-items-center">
+                                                                            <div class="carousel-content col-lg-6">
+                                                                                <h2 class="display-4 font-weight-bold mb-3">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-2">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6">
+                                                                                <img src="/theme_laze/static/src/img/snippets/1000x800.jpg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <a class="carousel-control-prev o_not_editable" contenteditable="false" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#laze_home_slider_04">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Previous</span>
+                                                            </a>
+                                                            <a class="carousel-control-next o_not_editable" contenteditable="false" data-slide="next" role="img" aria-label="Next" title="Next" href="#laze_home_slider_04">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Next</span>
+                                                            </a>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Slider 4</h6>
+                                                <label class="e-sb-label" for="e_slider_04"><input id="e_slider_04" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/slider-5.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="s_carousel_wrapper oe_snippet_body" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                                        <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="laze_home_slider_05">
+                                                            <ol class="carousel-indicators">
+                                                                <li data-slide-to="0" class="active" data-target="#laze_home_slider_05"></li>
+                                                                <li data-slide-to="1" data-target="#laze_home_slider_05"></li>
+                                                            </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active oe_img_bg o_bg_img_center pt40 pb40" data-name="Slide" style="background-color: #eee;">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content align-items-center">
+                                                                            <div class="col-lg-6">
+                                                                                <img src="/theme_laze/static/src/img/snippets/1000x800.jpg" />
+                                                                            </div>
+                                                                            <div class="carousel-content col-lg-6">
+                                                                                <h2 class="display-4 font-weight-bold mb-3">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-2">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item oe_img_bg o_bg_img_center pt40 pb40" data-name="Slide" style="background-color: #eee;">
+                                                                    <div class="container oe_unremovable">
+                                                                        <div class="row content align-items-center">
+                                                                            <div class="col-lg-6">
+                                                                                <img src="/theme_laze/static/src/img/snippets/1000x800.jpg" />
+                                                                            </div>
+                                                                            <div class="carousel-content col-lg-6">
+                                                                                <h2 class="display-4 font-weight-bold mb-3">
+                                                                                    Slide Title
+                                                                                </h2>
+                                                                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                <div class="pt-2">
+                                                                                    <a href="/shop" class="btn btn-primary mb-2 o_default_snippet_text">Shop Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <a class="carousel-control-prev o_not_editable" contenteditable="false" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#laze_home_slider_05">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Previous</span>
+                                                            </a>
+                                                            <a class="carousel-control-next o_not_editable" contenteditable="false" data-slide="next" role="img" aria-label="Next" title="Next" href="#laze_home_slider_05">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                                <span class="sr-only o_default_snippet_text">Next</span>
+                                                            </a>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Slider 5</h6>
+                                                <label class="e-sb-label" for="e_slider_05"><input id="e_slider_05" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Slidder -->
+                            <!-- Banner -->
+                            <div id="e_banner" class="e-sb-tab--content d-none">
+                                <div class="row">
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/banner-1.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt64 pb64 o_cc o_full_screen_height" style="background-image: url(/theme_laze/static/src/img/snippets/1920x900.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+                                                        <div class="container">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-lg-5 pt40 pb40 o_cc o_cc1 px-5">
+                                                                    <h3 class="h1 font-weight-bold pb-2">Staying In Is The New Going Out</h3>
+                                                                    <p class="lead font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                                                    <div class="pt-2">
+                                                                        <a class="btn btn-primary" href="#">More Offers</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Banner 1</h6>
+                                                <label class="e-sb-label" for="e_banner_01"><input id="e_banner_01" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/banner-2.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt64 pb64 o_cc o_cc3" style="background-image: url(/theme_laze/static/src/img/snippets/1920x900.jpg); background-position: 50% 0;">
+                                                        <div class="container">
+                                                            <div class="row align-items-center justify-content-center">
+                                                                <div class="col-lg-5 pt40 pb40 text-center">
+                                                                    <h3 class="h1 pb-2">Embrace your Natural Beauty.</h3>
+                                                                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                                                    <div class="pt-3">
+                                                                        <a class="btn btn-primary" href="#">More Offers</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Banner 2</h6>
+                                                <label class="e-sb-label" for="e_banner_02"><input id="e_banner_02" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Banner -->
+                            <!-- CTA -->
+                            <div id="e_CTA" class="e-sb-tab--content d-none">
+                                <div class="row">
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/cta-1.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 o_cc o_cc3">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                    <div class="col-lg-8">
+                                                                        <h3 class="h3">Subscribe to Our Newsletter and Stay Updated</h3>
+                                                                    </div>
+                                                                    <div class="col-lg-4 text-right">
+                                                                        <a class="btn btn-primary" href="#">Subscribe</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                </textarea>
+                                                <h6>cta 1</h6>
+                                                <label class="e-sb-label" for="e_CTA_01"><input id="e_CTA_01" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/cta-2.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 o_cc o_cc2">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 text-center">
+                                                                    <h3 class="h1">Subscribe to Our Newsletter and Stay Updated</h3>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                                                    <a class="btn btn-primary" href="#">Subscribe</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>cta 2</h6>
+                                                <label class="e-sb-label" for="e_CTA_02"><input id="e_CTA_02" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/cta-3.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 o_cc o_cc3 as-subscribe-snippet-01" style="background-image: url(/theme_laze/static/src/img/snippets/1920x900.jpg); background-position: 50% 0;">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 pt16 pb16">
+                                                                    <h3 class="h3 m-0">Subscribe to Our Newsletter<br/> and Stay Updated</h3>
+                                                                </div>
+                                                                <div class="col-lg-6 text-center pt16 pb16">
+                                                                    <p class="as-subscribe-snippet-box"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>cta 3</h6>
+                                                <label class="e-sb-label" for="e_CTA_03"><input id="e_CTA_03" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/cta-4.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 o_cc o_cc1 as-subscribe-snippet-02">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 pt16 pb16 text-center">
+                                                                    <h3 class="h3 font-weight-bold m-0">Subscribe Our Newsletter.</h3>
+                                                                    <div>
+                                                                        <p class="as-subscribe-snippet-box"></p>
+                                                                    </div>
+                                                                </div>            
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>cta 4</h6>
+                                                <label class="e-sb-label" for="e_CTA_04"><input id="e_CTA_04" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End CTA -->
+                            <!-- Features -->
+                            <div id="e_features" class="e-sb-tab--content d-none">
+                                <div class="row">
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/features-1.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt8 pb8 o_cc o_cc3">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <i class="fa fa-truck fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col pl-3">
+                                                                            <h6 class="mb-1">FREE SHIPPING</h6>
+                                                                            <p class="m-0 small">All oders over $99.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <i class="fa fa-headphones fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col pl-3">
+                                                                            <h6 class="mb-1">CUSTOMER SUPPORT</h6>
+                                                                            <p class="m-0 small">24 X 7 support.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <i class="fa fa-lock fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col pl-3">
+                                                                            <h6 class="mb-1">PAYMENT SECURITY</h6>
+                                                                            <p class="m-0 small">100% secure payment.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <i class="fa fa-refresh fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col pl-3">
+                                                                            <h6 class="mb-1">RETURN POLICY</h6>
+                                                                            <p class="m-0 small">No Questions Asked.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Features 1</h6>
+                                                <label class="e-sb-label" for="e_features_01"><input id="e_features_01" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/features-2.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 s_comparisons" style="background-color: #ffefef;">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="text-center py-5 px-lg-4">
+                                                                            <i class="fa fa-users fa-3x bg-o-color-1 rounded-circle"></i>
+                                                                            <h5 class="pt-4">Free Shipping</h5>
+                                                                            <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="text-center py-5 px-lg-4">
+                                                                            <i class="fa fa-headphones fa-3x bg-o-color-1 rounded-circle"></i>
+                                                                            <h5 class="pt-4">Customer support</h5>
+                                                                            <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="text-center py-5 px-lg-4">
+                                                                            <i class="fa fa-lock fa-3x bg-o-color-1 rounded-circle"></i>
+                                                                            <h5 class="pt-4">Payment Security</h5>
+                                                                            <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="text-center py-5 px-lg-4">
+                                                                            <i class="fa fa-refresh fa-3x bg-o-color-1 rounded-circle"></i>
+                                                                            <h5 class="pt-4">Return Policy</h5>
+                                                                            <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Features 2</h6>
+                                                <label class="e-sb-label" for="e_features_02"><input id="e_features_02" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/features-3.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 pt16 pb16 o_cc o_cc3">
+                                                                    <div class="d-flex justify-content-center">
+                                                                        <div>
+                                                                            <i class="fa fa-truck fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col-auto pl-3">
+                                                                            <h6 class="mb-1">FREE SHIPPING</h6>
+                                                                            <p class="m-0 small">All oders over $99.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16 o_cc o_cc4">
+                                                                    <div class="d-flex justify-content-center">
+                                                                        <div>
+                                                                            <i class="fa fa-headphones fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col-auto pl-3">
+                                                                            <h6 class="mb-1">CUSTOMER SUPPORT</h6>
+                                                                            <p class="m-0 small">24 X 7 support.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16 o_cc o_cc3">
+                                                                    <div class="d-flex justify-content-center">
+                                                                        <div>
+                                                                            <i class="fa fa-lock fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col-auto pl-3">
+                                                                            <h6 class="mb-1">PAYMENT SECURITY</h6>
+                                                                            <p class="m-0 small">100% secure payment.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 pt16 pb16 o_cc o_cc4">
+                                                                    <div class="d-flex justify-content-center">
+                                                                        <div>
+                                                                            <i class="fa fa-refresh fa-2x"></i>
+                                                                        </div>
+                                                                        <div class="col-auto pl-3">
+                                                                            <h6 class="mb-1">RETURN POLICY</h6>
+                                                                            <p class="m-0 small">No Questions Asked.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Features 3</h6>
+                                                <label class="e-sb-label" for="e_features_03"><input id="e_features_03" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/features-4.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 s_comparisons" style="background-color: #ffefef;">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="p-3 d-flex">
+                                                                            <i class="fa fa-users fa-2x bg-o-color-1 rounded-circle"></i>
+                                                                            <div class="col pl-3">
+                                                                                <h5 class="mb-2">Free Shipping</h5>
+                                                                                <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="p-3 d-flex">
+                                                                            <i class="fa fa-headphones fa-2x bg-o-color-1 rounded-circle"></i>
+                                                                            <div class="col pl-3">
+                                                                                <h5 class="mb-2">Customer support</h5>
+                                                                                <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="p-3 d-flex">
+                                                                            <i class="fa fa-lock fa-2x bg-o-color-1 rounded-circle"></i>
+                                                                            <div class="col pl-3">
+                                                                                <h5 class="mb-2">Payment Security</h5>
+                                                                                <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 pt16 pb16">
+                                                                    <div class="card shadow-sm rounded-lg border-0">
+                                                                        <div class="p-3 d-flex">
+                                                                            <i class="fa fa-refresh fa-2x bg-o-color-1 rounded-circle"></i>
+                                                                            <div class="col pl-3">
+                                                                                <h5 class="mb-2">Return Policy</h5>
+                                                                                <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Features 4</h6>
+                                                <label class="e-sb-label" for="e_features_04"><input id="e_features_04" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/features-5.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40 s_comparisons" style="background-color: #eff4ff;">
+                                                        <div class="container">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-lg-6">
+                                                                    <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" />
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <span class="badge badge-primary badge-pill px-3 py-2 mb-2">Why we are?</span>
+                                                                    <h3 class="h2">50,000+ companies run Odoo to grow their businesses.</h3>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                    <div class="row pt8">
+                                                                        <div class="col-lg-12 mb-3">
+                                                                            <div class="card shadow-sm rounded-lg border-0">
+                                                                                <div class="d-flex text-reset p-3">
+                                                                                    <div class="fa fa-headphones fa-2x bg-o-color-1 rounded-circle"></div>
+                                                                                    <div class="col pl-3">
+                                                                                        <h5 class="mb-2">Customer support</h5>
+                                                                                        <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-12 mb-3">
+                                                                            <div class="card shadow-sm rounded-lg border-0">
+                                                                                <div class="d-flex text-reset p-3">
+                                                                                    <i class="fa fa-headphones fa-2x bg-o-color-1 rounded-circle"></i>
+                                                                                    <div class="col pl-3">
+                                                                                        <h5 class="mb-2">Customer support</h5>
+                                                                                        <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-12 mb-3">
+                                                                            <div class="card shadow-sm rounded-lg border-0">
+                                                                                <div class="d-flex text-reset p-3">
+                                                                                    <i class="fa fa-headphones fa-2x bg-o-color-1 rounded-circle"></i>
+                                                                                    <div class="col pl-3">
+                                                                                        <h5 class="mb-2">Customer support</h5>
+                                                                                        <p class="m-0">Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Features 5</h6>
+                                                <label class="e-sb-label" for="e_features_05"><input id="e_features_05" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Features -->
+                            <!-- Shop Banner -->
+                            <div id="e_shop_promo" class="e-sb-tab--content d-none">
+                                <div class="row">
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-1.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <section class="col-lg-4 d-flex align-items-start justify-content-end position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x800.jpg);">
+                                                                    <div class="p-2">
+                                                                        <h6 class="m-0">New In</h6>
+                                                                        <h3 class="h1 mb-2 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                        <div><a href="#" class="">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 d-flex align-items-start justify-content-end position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x800.jpg);">
+                                                                    <div class="p-2">
+                                                                        <h6 class="m-0">New In</h6>
+                                                                        <h3 class="h1 mb-2 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                        <div><a href="#" class="">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 d-flex align-items-start justify-content-end position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x800.jpg);">
+                                                                    <div class="p-2">
+                                                                        <h6 class="m-0">New In</h6>
+                                                                        <h3 class="h1 mb-2 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                        <div><a href="#" class="">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 1</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_01"><input id="e_shop_banner_01" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-2.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <section class="col-lg-4 d-flex align-items-center justify-content-center position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg);">
+                                                                    <div class="p-2 text-center">
+                                                                        <h6 class="text-white mb-3">New In</h6>
+                                                                        <h3 class="text-white h1 mb-3 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                        <div><a href="#" class="btn btn-primary">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 d-flex align-items-center justify-content-center position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg);">
+                                                                    <div class="p-2 text-center">
+                                                                        <h6 class="text-white mb-3">New In</h6>
+                                                                        <h3 class="text-white h1 mb-3 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                        <div><a href="#" class="btn btn-primary">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 d-flex align-items-center justify-content-center position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg);">
+                                                                    <div class="p-2 text-center">
+                                                                        <h6 class="text-white mb-3">New In</h6>
+                                                                        <h3 class="text-white h1 mb-3 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                        <div><a href="#" class="btn btn-primary">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 2</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_02"><input id="e_shop_banner_02" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-3.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <section class="col-lg-4 d-flex align-items-center justify-content-start position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg);">
+                                                                    <div class="py-2 text-center px-5">
+                                                                        <h3 class="text-white h1 mb-3 font-weight-bold">Nike Shoes</h3>
+                                                                        <p class="text-white px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                                                        <div><a href="#" class="btn btn-primary">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 d-flex align-items-center justify-content-start position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg);">
+                                                                    <div class="py-2 text-center px-5">
+                                                                        <h3 class="text-white h1 mb-3 font-weight-bold">Nike Shoes</h3>
+                                                                        <p class="text-white px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                                                        <div><a href="#" class="btn btn-primary">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 d-flex align-items-center justify-content-start position-relative o_half_screen_height pt40 pb40" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg);">
+                                                                    <div class="py-2 text-center px-5">
+                                                                        <h3 class="text-white h1 mb-3 font-weight-bold">Nike Shoes</h3>
+                                                                        <p class="text-white px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                                                        <div><a href="#" class="btn btn-primary">Shop Now</a></div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 3</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_03"><input id="e_shop_banner_03" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-4.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="position-relative">
+                                                                        <div>
+                                                                            <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" />
+                                                                        </div>
+                                                                        <div class="position-absolute bottom-0 left-0 p-4">
+                                                                            <h6 class="m-0">New In</h6>
+                                                                            <h3 class="h1 mb-2 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                            <div><a href="#" class="">Shop Now</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="position-relative">
+                                                                        <div>
+                                                                            <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" />
+                                                                        </div>
+                                                                        <div class="position-absolute bottom-0 left-0 p-4">
+                                                                            <h6 class="m-0">New In</h6>
+                                                                            <h3 class="h1 mb-2 font-weight-bold">Nike SB<br /> Shane Shoes</h3>
+                                                                            <div><a href="#" class="">Shop Now</a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 4</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_04"><input id="e_shop_banner_04" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-5.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section>
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <section class="col-lg-6 embed-responsive embed-responsive-1by1 o_cc o_cc3" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg); background-size: cover;">
+                                                                    <div class="position-absolute top-0 left-0 right-0 bottom-0 p-4 text-center d-flex align-items-center justify-content-center">
+                                                                        <div>
+                                                                            <h3 class="h1">What's the best <br />digital radio for you</h3>
+                                                                            <div class="pt-3">
+                                                                                <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <div class="col-lg-6">
+                                                                    <div class="row">
+                                                                        <section class="col-md-6 embed-responsive embed-responsive-1by1 o_cc o_cc3" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg); background-size: cover;">
+                                                                            <div class="position-absolute top-0 left-0 right-0 p-4 text-center">
+                                                                                <h3>What's the best <br />digital radio for you</h3>
+                                                                                <div class="pt-3">
+                                                                                    <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                        <section class="col-md-6 embed-responsive embed-responsive-1by1 o_cc o_cc3" style="background-color: #41517c;">
+                                                                            <div class="position-absolute top-0 left-0 right-0 bottom-0 p-4 text-center d-flex align-items-center justify-content-center">
+                                                                                <div>
+                                                                                    <h3>What's the best <br />digital radio for you</h3>
+                                                                                    <div class="pt-3">
+                                                                                        <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                        <section class="col-md-6 embed-responsive embed-responsive-1by1 o_cc o_cc3" style="background-color: #41517c;">
+                                                                            <div class="position-absolute top-0 left-0 right-0 bottom-0 p-4 text-center d-flex align-items-center justify-content-center">
+                                                                                <div>
+                                                                                    <h3>What's the best <br />digital radio for you</h3>
+                                                                                    <div class="pt-3">
+                                                                                        <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                        <section class="col-md-6 embed-responsive embed-responsive-1by1 o_cc o_cc3" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg); background-size: cover;">
+                                                                            <div class="position-absolute bottom-0 left-0 right-0 p-4 text-center">
+                                                                                <h3>What's the best <br />digital radio for you</h3>
+                                                                                <div class="pt-3">
+                                                                                    <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 5</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_05"><input id="e_shop_banner_05" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-6.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <section class="col-lg-4 pt152 pb152" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg); background-size: cover;">
+                                                                    <div class="p-4">
+                                                                        <h3>What's the best <br/>digital radio for you</h3>
+                                                                        <div class="pt-3">
+                                                                            <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 pt152 pb152" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg); background-size: cover;">
+                                                                    <div class="text-center p-4">
+                                                                        <h3>What's the best <br/>digital radio for you</h3>
+                                                                        <div class="pt-3">
+                                                                            <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <section class="col-lg-4 pt152 pb152" style="background-image: url(/theme_laze/static/src/img/snippets/1000x1000.jpg); background-size: cover;">
+                                                                    <div class="float-right text-right p-4">
+                                                                        <h3>What's the best <br/>digital radio for you</h3>
+                                                                        <div class="pt-3">
+                                                                            <a class="btn btn-primary" href="#">Explore Now</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 6</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_06"><input id="e_shop_banner_06" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-7.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section>
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-lg-4 pt16 pb16">
+                                                                    <div class="text-center">
+                                                                        <div class="mb-3">
+                                                                            <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" class="rounded-lg" />
+                                                                        </div>
+                                                                        <h4 class="mb-2">New Collection</h4>
+                                                                        <p class="m-0">Free delivery on order above $99</p>
+                                                                        <div class="pt-3">
+                                                                            <a class="btn btn-primary btn-sm" href="#">Shop Now</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 pt16 pb16">
+                                                                    <div class="text-center">
+                                                                        <div class="mb-3">
+                                                                            <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" class="rounded-lg" />
+                                                                        </div>
+                                                                        <h4 class="mb-2">New Collection</h4>
+                                                                        <p class="m-0">Free delivery on order above $99</p>
+                                                                        <div class="pt-3">
+                                                                            <a class="btn btn-primary btn-sm" href="#">Shop Now</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 pt16 pb16">
+                                                                    <div class="text-center">
+                                                                        <div class="mb-3">
+                                                                            <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" class="rounded-lg" />
+                                                                        </div>
+                                                                        <h4 class="mb-2">New Collection</h4>
+                                                                        <p class="m-0">Free delivery on order above $99</p>
+                                                                        <div class="pt-3">
+                                                                            <a class="btn btn-primary btn-sm" href="#">Shop Now</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 7</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_07"><input id="e_shop_banner_07" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/shop_banner-8.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                     <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-lg-6">
+                                                                    <img src="/theme_laze/static/src/img/snippets/1000x1000.jpg" title="" alt=""/>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <h3 class="display-4 font-weight-bold">New Product and Brand in our Shop</h3>
+                                                                    <p class="m-0 lead">Free delivery on order above $99</p>
+                                                                    <div class="pt-4">
+                                                                        <a class="btn btn-primary" href="#">Shop Now</a>
+                                                                        <a class="btn btn-primary" href="#">Lear More</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Shop Banner 8</h6>
+                                                <label class="e-sb-label" for="e_shop_banner_08"><input id="e_shop_banner_08" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Shop Banner -->
+                            <!-- Title -->
+                            <div id="e_heading" class="e-sb-tab--content d-none">
+                                <div class="row">
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-1.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 text-center">
+                                                                    <i class="fa fa-truck bg-o-color-1 rounded mb-3"></i>
+                                                                    <h2>Featured Products</h2>
+                                                                    <div class="s_hr text-left pt8 pb16">
+                                                                        <hr class="w-25 mr-auto ml-auto" style="border-top-style: solid;border-top-width: 4px !important;border-top-color: #000; max-width: 50px;"/>
+                                                                    </div>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 1</h6>
+                                                <label class="e-sb-label" for="e_heading_1"><input id="e_heading_1" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-2.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-12">
+                                                                    <h2>Featured Products</h2>
+                                                                    <div class="s_hr text-left pt8 border-bottom">
+                                                                        <hr class="w-25 mr-auto" style="border-top-style: solid;border-top-width: 4px !important;border-top-color: #000; max-width: 50px;"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 2</h6>
+                                                <label class="e-sb-label" for="e_heading_2"><input id="e_heading_2" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-3.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-12 text-center">
+                                                                    <h2>Featured Products</h2>
+                                                                    <div class="s_hr text-left pt8 border-bottom">
+                                                                        <hr class="w-25 mr-auto ml-auto" style="border-top-style: solid;border-top-width: 4px !important;border-top-color: #000; max-width: 50px;"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 3</h6>
+                                                <label class="e-sb-label" for="e_heading_3"><input id="e_heading_3" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-4.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 text-center">
+                                                                    <h6 class="text-o-color-1 mb-3">Amazing design services</h6>
+                                                                    <h2>Beautiful and easy to use professional animations and drag &amp; drop feature</h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 4</h6>
+                                                <label class="e-sb-label" for="e_heading_4"><input id="e_heading_4" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-5.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 text-center">
+                                                                    <div class="d-flex justify-content-center align-items-center mb-2">
+                                                                        <div class="s_hr" style="width: 35px;">
+                                                                            <hr style="border-top-style: solid;border-top-width: 2px !important;border-top-color: #000;"/>
+                                                                        </div>
+                                                                        <h6 class="text-o-color-1 m-0 px-3">Special Offer</h6>
+                                                                        <div class="s_hr" style="width: 35px;">
+                                                                            <hr style="border-top-style: solid;border-top-width: 2px !important;border-top-color: #000;"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <h2>Featured Products</h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 5</h6>
+                                                <label class="e-sb-label" for="e_heading_5"><input id="e_heading_5" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-6.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-lg-6 text-center">
+                                                                    <h2 class="mb-3">Featured Products</h2>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 6</h6>
+                                                <label class="e-sb-label" for="e_heading_6"><input id="e_heading_6" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Col -->
+                                    <div class="col-md-3">
+                                        <div class="e_sb_snnippet_box">
+                                            <div class="img">
+                                                <img src="/theme_laze/static/src/img/snippets/snippets_icon/heading_title-7.jpg" />
+                                            </div>
+                                            <div class="snippet-as">
+                                                <textarea class="sr-only snippet-textarea">
+                                                    <section class="pt40 pb40">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="d-flex align-items-center mb-3">
+                                                                        <div class="s_hr" style="width: 35px;">
+                                                                            <hr style="border-top-style: solid;border-top-width: 2px !important;border-top-color: #000;"/>
+                                                                        </div>
+                                                                        <h6 class="text-o-color-1 m-0 px-3">ABOUT OUR COMPANY</h6>
+                                                                    </div>
+                                                                    <h2>Beautiful and easy to use professional animations and drag &amp; drop feature</h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </textarea>
+                                                <h6>Heading 7</h6>
+                                                <label class="e-sb-label" for="e_heading_7"><input id="e_heading_7" name="radio-snippet" type="radio" /><span /></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Title -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>    

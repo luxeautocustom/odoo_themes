@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Laze Builder Snippet -->
+    <template id="website_snippet_builder" name="Laze Snippet Builder">
+        <section class="as-laze-snippet-builder">
+            Laze Snippet Builder
+        </section>
+    </template>
+
+    <!-- Laze Builder Snippet Options -->
+    <template id="s_website_snippet_builder_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="js_laze_snippet_builder" data-selector=".as-laze-snippet-builder">
+                <we-button data-webisite_snippet_configure="" data-no-preview="true">Change Collection</we-button>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Laze Builder Snippet Thumbnail -->
+    <template id="laze_snippets_builder" name="Snippet builder" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="theme_laze.website_snippet_builder" t-thumbnail="/theme_laze/static/src/img/snippets_thumbs/laze-snippetbuilder.jpg"/>
+        </xpath>
+    </template>
+</odoo>

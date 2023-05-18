@@ -1,0 +1,191 @@
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+$o-base-color-palette: map-merge($o-base-color-palette, (
+    'header-boxed-custom': 5,
+));
+
+// Theme colors
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'laze1': (
+            'o-color-1': #55A630,
+            'o-color-2': #2B9348,
+            'o-color-3': #E9ECEF,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #011627,
+
+            'o-cc1-text': #6c757d,
+            'o-cc1-headings': 'o-color-5',
+            'o-cc1-btn-secondary': 'o-color-3',
+
+            'o-cc2-text': #6c757d,
+            'o-cc2-link': 'o-color-1',
+            'o-cc2-headings': 'o-color-1',
+
+            'o-cc3-text': 'o-color-4',
+            'o-cc3-link': 'o-color-4',
+            'o-cc3-headings': 'o-color-4',
+
+            'o-cc4-text': 'o-color-3',
+            'o-cc4-link': 'o-color-3',
+            'o-cc4-headings': 'o-color-4',
+
+            'o-cc5-text': 'o-color-3',
+            'o-cc5-link': 'o-color-3',
+            'o-cc5-headings': 'o-color-4',
+
+            //'lazheader': 5,
+            'lz-header-color': 1,
+            'menu': 1,
+            'footer': 5,
+            'copyright': 5,
+        ),
+        'laze2': (
+            'o-color-1': #368F8B,
+            'o-color-2': #246A73,
+            'o-color-3': #E9ECEF,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #002423,
+
+            'o-cc1-text': #6c757d,
+            'o-cc1-headings': 'o-color-5',
+            'o-cc1-btn-secondary': 'o-color-3',
+
+            'o-cc2-text': #6c757d,
+            'o-cc2-link': 'o-color-1',
+            'o-cc2-headings': 'o-color-1',
+
+            'o-cc3-text': 'o-color-4',
+            'o-cc3-link': 'o-color-4',
+            'o-cc3-headings': 'o-color-4',
+
+            'o-cc4-text': 'o-color-3',
+            'o-cc4-link': 'o-color-3',
+            'o-cc4-headings': 'o-color-4',
+
+            'o-cc5-text': 'o-color-3',
+            'o-cc5-link': 'o-color-3',
+            'o-cc5-headings': 'o-color-4',
+
+            'menu': 1,
+            'footer': 5,
+            'copyright': 5,
+        ),
+        'laze3': (
+            'o-color-1': #428e74,
+            'o-color-2': #2e7a61,
+            'o-color-3': #E9ECEF,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #29312e,
+
+            'o-cc1-text': #6c757d,
+            'o-cc1-headings': 'o-color-5',
+            'o-cc1-btn-secondary': 'o-color-3',
+
+            'o-cc2-text': #6c757d,
+            'o-cc2-link': 'o-color-1',
+            'o-cc2-headings': 'o-color-1',
+
+            'o-cc3-text': 'o-color-4',
+            'o-cc3-link': 'o-color-4',
+            'o-cc3-headings': 'o-color-4',
+
+            'o-cc4-text': 'o-color-3',
+            'o-cc4-link': 'o-color-3',
+            'o-cc4-headings': 'o-color-4',
+
+            'o-cc5-text': 'o-color-3',
+            'o-cc5-link': 'o-color-3',
+            'o-cc5-headings': 'o-color-4',
+
+            'menu': 1,
+            'footer': 5,
+            'copyright': 5,
+        ),
+        'laze4': (
+            'o-color-1': #613DC1,
+            'o-color-2': #4E148C,
+            'o-color-3': #E9ECEF,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #0c002a,
+
+            'o-cc1-text': #6c757d,
+            'o-cc1-headings': 'o-color-5',
+            'o-cc1-btn-secondary': 'o-color-3',
+
+            'o-cc2-text': #6c757d,
+            'o-cc2-link': 'o-color-1',
+            'o-cc2-headings': 'o-color-1',
+
+            'o-cc3-text': 'o-color-4',
+            'o-cc3-link': 'o-color-4',
+            'o-cc3-headings': 'o-color-4',
+
+            'o-cc4-text': 'o-color-3',
+            'o-cc4-link': 'o-color-3',
+            'o-cc4-headings': 'o-color-4',
+
+            'o-cc5-text': 'o-color-3',
+            'o-cc5-link': 'o-color-3',
+            'o-cc5-headings': 'o-color-4',
+
+            'menu': 1,
+            'footer': 5,
+            'copyright': 5,
+        ),
+    )
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'laze3');
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+
+$o-theme-font-configs: (
+    'Roboto': (
+        'family': ('Roboto', sans-serif),
+        'url': 'Roboto:300,300i,400,400i,500,500i,700,700i',
+    ),
+);
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        'color-palettes-name': 'laze3',
+        'font-size-base': 0.9375rem, // Need a set value as the value is used in bootstrap_overridden files
+        'font': 'Roboto',
+        'headings-font': 'Roboto',
+        'navbar-font': 'Roboto',
+        'buttons-font': 'Roboto',
+        'layout': 'full',
+        'link-underline': 'never', // 'never' / 'hover' / 'always'
+        
+        'menu-box-shadow': false,
+        'footer-template': 'atharva_footer',
+        'shop-layout': 'laze_shop_layout_box',
+
+    ),
+);
+
+//$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'base-1');
+
+
+//------------------------------------------------------------------------------
+// Shapes
+//------------------------------------------------------------------------------
+
+// for brand admin view
+.as-custom-brand {
+    &.o_field_empty {
+        display: none !important;
+    }
+}
+
+

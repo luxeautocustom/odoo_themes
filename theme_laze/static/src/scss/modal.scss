@@ -1,0 +1,159 @@
+.modal {
+	.as-full-modal {
+		.modal-body {
+			padding: 0 !important;
+		}
+	}
+	.modal-body {
+		&.as-core-selector-modal {
+			padding: 0;
+		}
+	}
+}
+
+.modal {
+	&.as-modal {
+		cursor: $as-close-icon-light, auto;
+	}
+	.modal-content {
+		cursor: auto;
+	}
+}
+
+//Side modal
+.modal {
+	.as_close {
+		position: relative;
+	    width: 35px;
+	    height: 35px;
+	    background: #fff;
+	    overflow: hidden;
+	    opacity: 1 !important;
+	    border: 1px solid $as-gray-300;
+	    border-radius: 0;
+	    outline: none;
+	    &:hover {
+	    	background: $as-dark;
+	    	border-color: $as-dark;
+	    	span {
+	    		background-image: $as-close-icon-light;
+	    	}
+	    }
+	    span {
+    	    width: 14px;
+		    height: 14px;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    margin: auto;
+		    background-image: $as-close-icon-dark;
+	        background-size: 100%;
+			background-repeat: no-repeat;
+	    }
+	}
+}
+.modal.as-side-modal {
+	&.show {
+		.modal-dialog {
+			transform: translateX(0);
+		}	
+	}
+	.modal-dialog {
+	    transform: translateX(100%);
+	    height: 100%;
+	    max-width: 600px;
+	    width: 100%;
+	    margin: 0 0 0 auto;
+	    transition: transform .3s ease-out;
+	    padding: 0;
+	    .modal-body {
+	    	padding: 0;
+	    }
+	}
+	.modal-content {
+	    border: none;
+	    border-radius: 0;
+	    box-shadow: none;
+	}
+}
+
+
+
+// Login modal
+.as-login-modal {
+	.as_close {
+		position: absolute;
+    	top: 10px;
+    	right: 10px;
+    	z-index: 1;
+	}
+	.nav-tabs {
+		border: none;
+		background: $as-white;
+		border: none;
+		.nav-item {
+			border: none;
+			margin: 0;
+			.nav-link {
+				border: none;
+				font-weight: 600;
+				text-transform: uppercase;
+			    padding: 0 45px;
+				line-height: 55px;
+				border-radius: 0;
+				color: $as-dark;
+				margin: 0;
+				&.active {
+					color: $primary;
+					background: rgba($primary, 0.08);
+				}
+			}
+		}
+	}
+	.modal-dialog  {
+	    display: flex;
+	    align-items: center;
+	    min-height: calc(100% - 1rem);
+	}
+	.modal-content {
+		border-radius: 0;
+    	border: none;
+	}
+	.modal-body {
+		padding: 0;
+	}
+	.as-login-tab-img {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+		svg {
+			width: 90%;
+			max-height: 350px;
+			margin: 0 auto;
+		}
+	}
+	.as-login-tab-form {
+		background: rgba($primary, 0.08);
+		border-left: 1px solid rgba($primary, 0.08);
+	}
+	form {
+		.form-group {
+			margin-bottom: 0.6rem;
+			label {
+				font-weight: 500;
+    			margin: 0 0 5px;
+    			color: $as-dark;
+    			font-size: 14px;
+			}
+			.form-control  {
+				height: calc(2.1em + 0.75rem + 2px);
+				border-radius: 0;
+			}
+		}
+	}
+}
+
+
+

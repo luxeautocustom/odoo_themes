@@ -1,0 +1,69 @@
+@if o-website-value('footer-template')=='laze_footer2' {
+	.o_footer {
+		font-size: 0.9rem;
+		color: rgba($lz-footer-yiq-color, 0.7);
+		.h1,
+		.h2,
+		.h3,
+		.h4,
+		.h5,
+		.h6,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: $lz-footer-yiq-color;
+		}
+
+
+		// Heading
+		.footer-title {
+		    position: relative;
+		    margin-bottom: 30px;
+		    h5 {
+	    	    font-weight: 400;
+			    font-size: 0.85rem;
+			    margin: 0;
+			    opacity: 0.6;
+			    letter-spacing: 3px;
+		    }
+		}
+
+		// Footer Link Style
+		.footer-link {
+			li {
+				+ li {
+					padding-top: 10px;
+				}
+				a {
+					position: relative;
+					text-decoration: none;
+					color: rgba($lz-footer-yiq-color, 0.7);
+
+					&:before {
+						content: '';
+    					position: absolute;
+    					transition: all .5s ease;
+					    background-color: currentColor;
+					    left: 0;
+					    right: auto;
+					    bottom: -5px;
+					    width: 0;
+					    height: 1px;
+					}
+					&:hover {
+						color: $lz-footer-yiq-color;
+						&:before {
+						    width: 100%;
+						    left: auto;
+					    	right: 0;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}

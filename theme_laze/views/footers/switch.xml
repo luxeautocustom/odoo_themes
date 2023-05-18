@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- laze Footer Options -->
+    <template id="laze_footer_switches" inherit_id="website.snippet_options">
+        <xpath expr="//div/we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="laze_footer1"
+                data-customize-website-views="theme_laze.laze_footer_1"
+                data-customize-website-variable="'laze_footer1'"
+                data-img="/theme_laze/static/src/img/header_icon/footer-option-1.svg"/>
+            <we-button title="laze_footer2"
+                data-customize-website-views="theme_laze.laze_footer_2"
+                data-customize-website-variable="'laze_footer2'"
+                data-img="/theme_laze/static/src/img/header_icon/footer-option-2.svg"/>
+            <we-button title="laze_footer3"
+                data-customize-website-views="theme_laze.laze_footer_3"
+                data-customize-website-variable="'laze_footer3'"
+                data-img="/theme_laze/static/src/img/header_icon/footer-option-3.svg"/>
+        </xpath>
+    </template>
+</odoo>

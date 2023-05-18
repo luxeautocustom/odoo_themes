@@ -1,0 +1,215 @@
+.as-blog-snippet {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.as-blog-snippet {
+	.swiper-slide{
+		height: auto;
+	}
+}
+
+// Blog Style 1
+.as-blog-style1 {
+	.as-blog-post {
+		.as-b-img-bg {
+			background-size: cover;
+		    background-repeat: no-repeat;
+		    background-position: center;
+		    &:after {
+		    	content: "";
+			    padding-bottom: 65%;
+			    display: inline-block;
+			    vertical-align: top;
+		    }
+		}
+		.as-b-info {
+		    padding: 15px 0 0;
+		    .as-b-time {
+	    	    position: absolute;
+    			top: 20px;
+    			left: 20px;
+				span {
+					background: $primary;
+				    display: inline-block;
+				    padding: 6px 20px;
+				    color: $as-white;
+				    font-size: 13px;
+				}
+		    }
+		    .as-b-title {
+		    	margin-bottom: 10px;
+		    	a {
+		    		font-weight: 600;
+				    font-size: 16px;
+				    color: $as-dark;
+				    text-decoration: none;
+		    	}
+		    }
+		    .as-b-desc {
+		    	margin-bottom: 10px;
+		    }
+		    .as-b-link {
+		    	font-weight: 600;
+		    	text-transform: uppercase;
+		    	letter-spacing: 1px;
+		    	font-size: 12px;
+		    	color: $primary;
+		    	text-decoration: none;
+		    }
+		}
+	}
+}
+
+
+// Blog Style 2
+.as-blog-style2 {
+	.as-blog-post {
+		border: 1px solid $as-gray-300;
+		position: relative;
+		height: 100%;
+		.as-b-img {
+			overflow: hidden;
+		}
+		.as-b-img-bg {
+			background-size: cover;
+		    background-repeat: no-repeat;
+		    background-position: center;
+		    transition: ease all 0.35s;
+		    transform: scale(1);
+		    &:after {
+		    	content: "";
+			    padding-bottom: 65%;
+			    display: inline-block;
+			    vertical-align: top;
+		    }
+		}
+		.as-b-info {
+		    padding: 15px;
+		    background: $as-white;
+		    .as-b-time {
+	    	    position: absolute;
+	    	    left: 10px;
+	    	    top: 10px;
+				span {
+					background: $primary;
+				    display: inline-block;
+				    padding: 6px 20px;
+				    border-radius: 30px;
+				    color: $as-white;
+				    font-size: 13px;
+				}
+		    }
+		    .as-b-title {
+		    	margin-bottom: 10px;
+		    	a {
+		    		font-weight: 600;
+				    font-size: 20px;
+				    color: $as-dark;
+				    text-decoration: none;
+		    	}
+		    }
+		    .as-b-desc {
+		    	margin-bottom: 10px;
+		    }
+		    .as-b-link {
+		    	font-weight: 600;
+		    	text-transform: uppercase;
+		    	letter-spacing: 1px;
+		    	font-size: 12px;
+		    	color: $primary;
+		    	text-decoration: none;
+		    }
+		}
+		&:hover {
+			.as-b-img-bg {
+				transform: scale(1.05);
+			}
+		}
+	}
+}
+
+// Blog Style 3
+.as-blog-style3 {
+	.as-blog-post {
+		position: relative;
+		padding: 50% 15px 30px;
+		overflow: hidden;
+		display: flex;
+	    flex-direction: column;
+	    height: 100%;
+	    justify-content: flex-end;
+		.as-b-img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+			&:after {
+				content:"";
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    background: linear-gradient(to bottom, rgba($as-dark, 0) 0%, rgba($as-black, 0.8) 70%);
+			}
+			.as-b-img-bg  {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-size: cover;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			}
+		}
+		.as-b-info {
+		    .as-b-time {
+	    	    margin-bottom: 10px;
+			    position: absolute;
+			    top: 15px;
+			    left: 15px;
+				span {
+					background: $primary;
+					color: $as-white;
+				    display: inline-block;
+				    padding: 6px 15px;
+				    font-size: 14px;
+				}
+		    }
+		    .as-b-title {
+		    	margin-bottom: 10px;
+		    	a {
+		    		font-weight: 600;
+				    font-size: 20px;
+				    color: $as-white;
+				    text-decoration: none;
+		    	}
+		    }
+		    .as-b-desc {
+		    	margin-bottom: 10px;
+		    	color: rgba($as-white, 0.8);
+		    }
+		    .as-b-link {
+		    	font-weight: 600;
+		    	text-transform: uppercase;
+		    	letter-spacing: 1px;
+		    	font-size: 12px;
+		    	color: $as-white;
+		    	text-decoration: none;
+		    	&:after {
+		    		content:"";
+		    		position: absolute;
+				    top: 0;
+				    left: 0;
+				    right: 0;
+				    bottom: 0;
+				    z-index: 1;
+		    	}
+		    }
+		}
+	}
+}

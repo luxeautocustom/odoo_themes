@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="laze_best_seller_product_slider_layout" name="Laze Best Seller Product Layout">
+        <section t-attf-class="s_best_seller_products as-product-snippet as-swiper-section as-product-swiper-{{sliderType}} as-product-{{styleUI}} js_sale">
+            <div class="container">
+                <div class="swiper as-Swiper as-our-product">
+                    <div class="swiper-wrapper">
+                        <t t-call="theme_laze.laze_product_box">
+                            <t t-set="_as_product_class" t-value="'swiper-slide'"/>
+                        </t>
+                    </div>
+                    <t t-call="theme_laze.laze_swiper_arrow_elements" />
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="laze_best_seller_product_grid_layout" name="Laze Best Seller Product Grid Layout">
+        <section t-attf-class="as-product-snippet as-product-grid-{{dataCount}} as-product-{{styleUI}} js_sale">
+            <div class="container">
+                <div class="row">
+                    <t t-call="theme_laze.laze_product_box">
+                        <t t-set="_as_product_class" t-value="'col-sm-6 col-lg-3 my-3'"/>
+                    </t>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
